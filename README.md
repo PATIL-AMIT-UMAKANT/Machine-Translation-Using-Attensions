@@ -21,4 +21,5 @@ We obtained the dataset used from Kaggle: https://www.kaggle.com/aiswaryaramacha
 ![encoder decoder img](https://user-images.githubusercontent.com/94529852/182778072-9bb91cd1-d816-4fad-b2cd-6a2e07dd0276.png)
 
 > A sequence to sequence model has two parts – an encoder and a decoder. Both the parts are practically two different neural network models combined into one giant network. the task of an encoder network is to understand the input sequence, and create a smaller dimensional representation of it. This representation is then forwarded to a decoder network which generates a sequence of its own that represents the output. The input is put through an encoder model which gives us the encoder output. Here, each input words is assigned a weight by the attention mechanism which is then used by the decoder to predict the next word in the sentence. We use Bahdanau attention for the encoder.
+![Encoder decoder With Attensions](https://user-images.githubusercontent.com/94529852/182779592-9a2b6c9f-a88a-4322-8805-86f8e2a3b41f.png)
 
