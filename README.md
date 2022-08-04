@@ -18,7 +18,7 @@ We obtained the dataset used from Kaggle: https://www.kaggle.com/aiswaryaramacha
 ## Encoder Decoder with Attention Model
 
 > Encoder Decoder with Attention model is a general end-to-end approach to sequence learning that makes minimal assumptions on the sequence structure. It uses a multilayered Gated Recurrent Unit (GRU) to map the input sequence to a vector of a fixed dimensionality, and then another deep GRU to decode the target sequence from the vector.
-<img src="https://www.researchgate.net/profile/Vlad_Zhukov2/publication/321210603/figure/fig1/AS:642862530191361@1530281779831/An-example-of-sequence-to-sequence-model-with-attention-Calculation-of-cross-entropy.png" width="800" alt="attention mechanism">
+![encoder decoder img](https://user-images.githubusercontent.com/94529852/182778072-9bb91cd1-d816-4fad-b2cd-6a2e07dd0276.png)
 
 > A sequence to sequence model has two parts – an encoder and a decoder. Both the parts are practically two different neural network models combined into one giant network. the task of an encoder network is to understand the input sequence, and create a smaller dimensional representation of it. This representation is then forwarded to a decoder network which generates a sequence of its own that represents the output. The input is put through an encoder model which gives us the encoder output. Here, each input words is assigned a weight by the attention mechanism which is then used by the decoder to predict the next word in the sentence. We use Bahdanau attention for the encoder.
 
