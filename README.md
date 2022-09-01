@@ -6,7 +6,7 @@ The notebook deals with a sequence to sequence model for English to Hindi transl
 
 >RNNs are also capable of doing natural language translation, aka. machine translation. It involves two RNNs, one for the source language and one for the target language. One of them is called an encoder, and the other one decoder. The reason is that, the first one encodes the sentence into a vector and the second one converts the encoded vector into a sentence in target language. The decoder is a separete RNN. Given the encoded sentence, it produces the translated sentence in target language. Attention lets the decoder to focus on specific parts of the input sentence for each output word. This helps the input and output sentences to align with one another.
 
-We obtained the dataset used from Kaggle: https://www.kaggle.com/aiswaryaramachandran/hindienglish-corpora
+We obtained the dataset used from Kaggle: https://www.kaggle.com/aiswaryaramachandran/hindienglish-corpora.
 
 <h2> References: </h2>
 <li></a> Sequence to Sequence Learning with Neural Networks (Research Publication)</li>
